@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "HelveticaUltraLight", Arial;
+}
+
+body {
+ background: #fbfbfb;
+}
+ul,li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a, a:hover {
+	text-decoration: none;
+}
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	/*text-align: justify;*/
+	padding: 30px;
+	margin-bottom: 30px;
+
+}
+
+header {
+	padding: 30px 0;
+	background: #b0e0e6;
+	border-bottom: 1px solid #708090;
+	border-radius: 7px 7px  1px 1px;
+
+}
+header h2 {
+	padding-left: 20px;
+	margin: 0;
+	text-transform: uppercase;
+	color: #2f4f4f;
+	font-weight: bold;
+	font-size: 24px;
+
+}
+
+#tabs {
+	background-color: #fff;
+	/*border-right: 1px solid #708090;
+	border-left:  1px solid #708090;*/
+	border-radius: 0px 0px 5px 5px;
+}
+
+li {
+	float: left;
+	width: 16.66%;
+	text-align: center;
+	height: 48px;
+	background-color: #efefef;
+	border-bottom: 1px solid #ccc;
+}
+.tabs li + li {
+	border-left: 1px solid #ccc;
+}
+.tabs li a {
+	display: block;
+	/*padding: 8px 16px;*/
+	font-size: 16px;
+	line-height: 47px;
+	color: #999;
+	font-weight: bold;
+	border-bottom: 1px solid #708090;
+}
+.tabs li a.active {
+	color: #369;
+	border-bottom: 1px solid #fff;
+	background-color: #fff;
+}
+
+.tabs-content {
+	padding: 20px;
+	font-size: 16px;
+	line-height: 21px;
+	background-color: #fff;
+	border-bottom: 1px solid #708090;
+	border-radius: 0px 0px 5px 5px;
+}
+h1 {
+	text-align: center;
+}
+
+
+
+form {
+    width: 570px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 14px;
+    border: 1px solid #6495ed;
+    background-color: #ffe4e1;
+}
+
+label {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid rgb(130,198,112);
+    box-sizing: border-box;
+}
+
+span {
+    display: inline-block;
+    width: 70px;
+
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 230px;
+    padding: 6px;
+    border: 1px solid rgb(36,151,244);
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+.help{
+    display: block;
+    width: 135px;
+    margin-top: 30px;
+    margin-left: 76px;
+    padding: 5px;
+    border: 1px solid rgb(130,198,112);
+    border-radius: 15px;
+    background-color: rgb(130,198,112);
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+}
