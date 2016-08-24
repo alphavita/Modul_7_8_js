@@ -30,12 +30,15 @@ $(function () {
       $(this).next().hide(600);
       };
 
-  $('input').hover(showTooltip, hideTooltip);
 
-$('.help').on('click', function (){
+  $('input').hover(showTooltip, hideTooltip);
+$('input').focus(showTooltip);
+    $('input').focusout(hideTooltip);
+$('.help').on('click keyup', function (){
+  console.log('w');
   var $helpText = $('.help')[0].innerHTML;
   if ($helpText.indexOf('Show') >= 0) {
-            $('.tooltip').fadeIn(200);;
+            $('.tooltip').fadeIn(100);
             $('.help')[0].innerHTML = $helpText.replace('Show', 'Hide');
         }
         else {
